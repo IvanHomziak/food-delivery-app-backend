@@ -1,11 +1,11 @@
 package com.ihomziak.orderms.service;
 
-import com.ihomziak.order.dto.OrderDTO;
-import com.ihomziak.order.dto.OrderDTOFromFE;
-import com.ihomziak.order.dto.UserDTO;
-import com.ihomziak.order.entity.Order;
-import com.ihomziak.order.mapper.OrderMapper;
-import com.ihomziak.order.repo.OrderRepo;
+import com.ihomziak.orderms.dto.OrderDTO;
+import com.ihomziak.orderms.dto.OrderDTOFromFE;
+import com.ihomziak.orderms.dto.UserDTO;
+import com.ihomziak.orderms.entity.Order;
+import com.ihomziak.orderms.mapper.OrderMapper;
+import com.ihomziak.orderms.repo.OrderRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

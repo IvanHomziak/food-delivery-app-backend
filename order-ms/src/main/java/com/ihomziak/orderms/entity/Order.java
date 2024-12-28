@@ -1,8 +1,8 @@
 package com.ihomziak.orderms.entity;
 
-import com.ihomziak.order.dto.FoodItemsDTO;
-import com.ihomziak.order.dto.Restaurant;
-import com.ihomziak.order.dto.UserDTO;
+import com.ihomziak.orderms.dto.FoodItemsDTO;
+import com.ihomziak.orderms.dto.Restaurant;
+import com.ihomziak.orderms.dto.UserDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

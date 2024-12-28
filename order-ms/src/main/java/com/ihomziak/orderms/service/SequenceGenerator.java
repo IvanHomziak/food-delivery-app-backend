@@ -1,6 +1,6 @@
 package com.ihomziak.orderms.service;
 
-import com.ihomziak.order.entity.Sequence;
+import com.ihomziak.orderms.entity.Sequence;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.query.Update;

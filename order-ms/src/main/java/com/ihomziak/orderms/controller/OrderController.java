@@ -1,8 +1,8 @@
 package com.ihomziak.orderms.controller;
 
-import com.ihomziak.order.dto.OrderDTO;
-import com.ihomziak.order.dto.OrderDTOFromFE;
-import com.ihomziak.order.service.OrderService;
+import com.ihomziak.orderms.dto.OrderDTO;
+import com.ihomziak.orderms.dto.OrderDTOFromFE;
+import com.ihomziak.orderms.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
 package com.ihomziak.orderms.mapper;
 
-import com.ihomziak.order.dto.OrderDTO;
-import com.ihomziak.order.entity.Order;
+import com.ihomziak.orderms.dto.OrderDTO;
+import com.ihomziak.orderms.entity.Order;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

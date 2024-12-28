@@ -11,8 +11,8 @@
     <groupId>com.ihomziak</groupId>
     <artifactId>food-delivery-app-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>restaurant-backend</name>
-    <description>restaurant-backend</description>
+    <name>food-delivery-app-backend</name>
+    <description>food-delivery-app-backend</description>
     <url/>
     <licenses>
         <license/>

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ihomziak</groupId>
-    <artifactId>restaurant-backend</artifactId>
+    <artifactId>food-delivery-app-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>restaurant-backend</name>
     <description>restaurant-backend</description>

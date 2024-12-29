@@ -1,6 +1,8 @@
+-- Create the database if it doesn't exist
+CREATE DATABASE IF NOT EXISTS restaurantdb;
+
 -- Switch to the database
-USE
-restaurantdb;
+USE restaurantdb;
 
 -- Drop the table if it exists
 DROP TABLE IF EXISTS restaurant;
@@ -12,11 +14,11 @@ CREATE TABLE restaurant
     name                  VARCHAR(255) NOT NULL,
     address               VARCHAR(255) NOT NULL,
     city                  VARCHAR(100) NOT NULL,
-    restaurantDescription TEXT
+    restaurant_description TEXT
 );
 
 -- Insert sample data
-INSERT INTO restaurant (name, address, city, restaurantDescription)
+INSERT INTO restaurant (name, address, city, restaurant_description)
 VALUES ('Pizza Paradise', '123 Main Street', 'New York', 'A cozy place for the best Italian pizzas.'),
        ('Sushi World', '456 Elm Avenue', 'San Francisco', 'Experience authentic Japanese sushi and sashimi.'),
        ('Burger Haven', '789 Maple Road', 'Chicago', 'The ultimate destination for gourmet burgers.'),

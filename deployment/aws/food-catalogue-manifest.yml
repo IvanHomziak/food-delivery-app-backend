@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: foodcatalogueapp
-          image: codedecode25/food-catalogue-service:7
+          image: ihomziak/foogcatalogue-ms:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 9092 #

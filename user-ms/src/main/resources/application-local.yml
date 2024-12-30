@@ -8,7 +8,7 @@ eureka:
 
 spring:
   datasource:
-    url: mysql-db-instance.c3swasymc8br.us-east-1.rds.amazonaws.com # jdbc:mysql://localhost:3306/userdb
+    url: jdbc:mysql://mysql-db-instance.c3swasymc8br.us-east-1.rds.amazonaws.com:3306/userdb
     username: admin
     password: admin1234
     driver-class-name: com.mysql.cj.jdbc.Driver

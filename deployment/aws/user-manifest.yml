@@ -1,25 +1,25 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: restaurantapp
+  name: userapp
   labels:
-    app: restaurantapp
+    app: userapp
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: restaurantapp
+      app: userapp
   template:
     metadata:
       labels:
-        app: restaurantapp
+        app: userapp
     spec:
       containers:
-        - name: restaurantapp
-          image: ihomziak/restaurant-listing-ms:latest
+        - name: userapp
+          image: ihomziak/user-ms:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 9091
+            - containerPort: 9093
           env:
             - name: SPRING_DATASOURCE_USERNAME
               valueFrom:
@@ -35,16 +35,16 @@ spec:
               valueFrom:
                 configMapKeyRef:
                   name: configmap
-                  key: restaurantdb_url
+                  key: userdb_url
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: restaurant-service
+  name: user-service
 spec:
   ports:
     - protocol: TCP
-      port: 9091
-      targetPort: 9091
+      port: 9093
+      targetPort: 9093
   selector:
-    app: restaurantapp
+    app: userapp

@@ -12,20 +12,16 @@
     <artifactId>food-delivery-app-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>food-delivery-app-backend</name>
-    <description>food-delivery-app-backend</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+    <description>Food Delivery Application Backend</description>
+
+    <modules>
+        <module>eureka</module>
+        <module>foodcatalogue-ms</module>
+        <module>order-ms</module>
+        <module>restaurant-listing-ms</module>
+        <module>user-ms</module>
+    </modules>
+
     <properties>
         <java.version>17</java.version>
     </properties>

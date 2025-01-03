@@ -29,7 +29,4 @@ public class SequenceGenerator {
         return counter.getSequence();
 
     }
-
-
-
 }
